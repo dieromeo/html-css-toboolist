@@ -4,7 +4,7 @@ COMMON
 ---------
 */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,18 +17,51 @@ HEADER
 ---------
 */
 
-header{
+header {
     background-color: white;
     height: 70px;
 }
 
-#logo{
+#logo {
     vertical-align: middle;
     padding: 10px 0px 0px 10px;
 }
 
-h1{
+h1 {
     font-family: 'Roboto', sans-serif;
     display: inline-block;
     vertical-align: middle;
+}
+
+/*
+---------
+NAV
+---------
+*/
+
+.container {
+    background-color: white;
+    margin: 40px auto 0px;
+    height: 50px;
+    width: 70%;
+}
+
+.task-button {
+    width: 70px;
+    height: 25px;
+    background-color: #14aaf5;
+    color: white;
+    border: 1px;
+    border-color: #14aaf5;
+    border-radius: 15%;
+}
+
+.add-button {
+    width: 85px;
+    height: 25px;
+    background-color: white;
+    color: grey;
+    border: 1px;
+    border-color: grey;
+    border-radius: 15%;
 }

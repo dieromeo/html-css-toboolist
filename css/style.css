@@ -16,11 +16,7 @@ body {
 
 
 
-/*
----------
-HEADER
----------
-*/
+
 
 /*
 ---------
@@ -57,6 +53,12 @@ nav{
     padding: 15px 0px 5px 50px;
     margin-top :30px; 
 }
+
+/*
+---------
+HEADER
+---------
+*/
 
 
 header {
@@ -131,7 +133,7 @@ li.cross::before{
     padding: 5px 10px;
     font-size: 12px;
     color: white;
-    border-radius: 35%;
+    border-radius: 25%;
 }
 
 .blue{

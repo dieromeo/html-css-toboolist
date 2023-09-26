@@ -7,6 +7,7 @@ COMMON
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -21,8 +22,46 @@ HEADER
 ---------
 */
 
+/*
+---------
+NAV
+---------
+*/
+
+nav{
+    background-color: #f6f8f9;
+}
+
+#task{
+    background-color: #14aaf5;
+    width: 70px;
+    height: 25px;
+    color: white;
+    border-radius: 15%;
+    border-color: #14aaf5;
+}
+
+#section{
+    width: 85px;
+    height: 25px;
+    color: grey;
+    border-radius: 15%;
+}
+
+.container-button{
+    background-color: white;
+    width: 900px;
+    margin: auto;
+    border-radius: 2%;
+    height: 50px;
+    padding: 15px 0px 5px 50px;
+    margin-top :30px; 
+}
+
+
 header {
     height: 70px;
+    background-color: white;
 }
 
 #logo {
@@ -43,15 +82,15 @@ MAIN
 
 main {
     background-color: #f6f8f9;
-    padding: 30px;
 }
 
 .container {
     background-color: white;
     width: 900px;
     margin: auto;
-    padding: 30px 0px 40px 20px;
+    padding: 5px 0px 40px 50px;
     border-radius: 1%;
+    
 }
 
 h2 {
